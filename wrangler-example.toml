@@ -1,0 +1,11 @@
+name = "moodle-calendar-enhancer"
+type = "javascript"
+
+account_id = "YOUR-ACCOUNT-ID"
+workers_dev = true
+route = ""
+zone_id = ""
+
+[env.production]
+zone_id = "YOUR-ZONE-ID"
+route = "moodle-cal-enh.example.com/*"

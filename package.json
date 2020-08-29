@@ -1,0 +1,12 @@
+{
+  "private": false,
+  "name": "moodle-calendar-enhancer",
+  "version": "0.0.1",
+  "description": "Allows for timeshifting & titles enhancement of Moodle Calendar subscriptions using CloudFlare Worker",
+  "main": "index.js",
+  "author": "kiler129 <grzegorz@noflash.pl>",
+  "license": "MIT",
+  "devDependencies": {
+    "prettier": "^1.18.2"
+  }
+}
