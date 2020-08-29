@@ -19,11 +19,12 @@ calendar event.
 The code is pretty universal and can be easily modified for any scenario. The intended deployment route is via 
 [Cloudflare Workers](http://workers.cloudflare.com).
 
-[![Deploy to Cloudflare Workers](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/kiler129/YOURREPO)
+[![Deploy to Cloudflare Workers](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/kiler129/moodle-calendar-enhancer)
 
 
 After deployment go to `https://moodle.example.com/calendar/export.php` and after setting everything click 
-***"Get calendar URL"**. You will get a link like so:
+**"Get calendar URL"**.
+You will get a link like so:
 
 ```
 https://moodle.example.com/calendar/export_execute.php?userid=1&authtoken=some_chars&preset_what=all&preset_time=recentupcoming
